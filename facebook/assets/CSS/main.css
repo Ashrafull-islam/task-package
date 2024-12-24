@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    /* background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; */
+}
+
+
+
+
+.container {
+    min-height: 60vh;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    flex: 1;
+}
+
+.container .content {
+    display: flex;
+    align-items: center;
+    max-width: 980px;
+    width: 100%;
+    padding: 20px;
+    gap: 0 32px;
+}
+
+.container .content .left-section {
+    flex: 1;
+    padding-right: 32px;
+    margin-top: -48px;
+}
+.container .content .left-section img{
+    mix-blend-mode: multiply;
+}
+
+.tagline {
+    font-size: 30px;
+    width: 500px;
+    font-weight: 300;
+    color: #1c1e21;
+}
+
+.container .content .login-container {
+    flex: 0 0 396px;
+}
+
+.container .content .login-container .login-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding: 16px;
+}
+
+.container .content .login-container .login-card .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.container .content .login-container .login-card .login-form .form-input {
+    padding: 14px 16px;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    width: 90%;
+}
+
+.container .content .login-container .login-card .login-form .form-input:focus {
+    outline: none;
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.container .content .login-container .login-card .login-form .login-button {
+    background-color: #1877f2;
+    color: white;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 6px 0;
+}
+
+.container .content .login-container .login-card .login-form .login-button:hover {
+    background-color: #166fe5;
+}
+
+.container .content .login-container .login-card .forgot-password {
+    text-align: center;
+    margin: 16px 0;
+}
+
+.forgot-password a {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    border-bottom: 1px solid #dadde1;
+    margin: 20px 16px;
+}
+
+.create-account {
+    background-color: #42b72a;
+    color: white;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 6px auto;
+    display: block;
+    width: fit-content;
+}
+
+.create-account:hover {
+    background-color: #36a420;
+}
+
+.create-page {
+    text-align: center;
+    margin-top: 28px;
+    font-size: 14px;
+}
+
+.create-page a {
+    color: #1c1e21;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.create-page a:hover {
+    text-decoration: underline;
+}
+
+ .footer {
+            background-color: white;
+            padding: 20px 0;
+        }
+
+        .footer-content {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 0 16px;
+        }
+
+        .language-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 8px 0;
+            list-style: none;
+            border-bottom: 1px solid #dddfe2;
+        }
+
+        .language-list a {
+            color: #737373;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        .language-list a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 8px 0;
+            list-style: none;
+        }
+
+        .footer-links a {
+            color: #737373;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        .copyright {
+            color: #737373;
+            font-size: 11px;
+            margin: 20px 0;
+        }
+
+
+
+        /* footer section  */
+        .footer {
+            background-color: white;
+            padding: 20px 0;
+        }
+
+        .footer-content {
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 0 16px;
+        }
+
+        .language-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 8px 0;
+            list-style: none;
+            border-bottom: 1px solid #dddfe2;
+        }
+
+        .language-list a {
+            color: #737373;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        .language-list a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 8px 0;
+            list-style: none;
+        }
+
+        .footer-links a {
+            color: #737373;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        .copyright {
+            color: #737373;
+            font-size: 11px;
+            margin: 20px 0;
+        }

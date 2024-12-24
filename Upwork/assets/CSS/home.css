@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.text-color{
+    color: #18183D;
+}
+.a-flex{
+    display: flex;
+}
+.flex-aligns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* navbar start  */
+.nav-section{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    position: fixed;
+    border: 1px solid rgb(228, 223, 223);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container .nav-content{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .nav-content .leftside-nav .nav-logo img{
+    height: 20px;
+    width: 100px;
+}
+
+.container .nav-content .leftside-nav .nav-list li{
+    font-size: 14px;
+    margin-left: 27px;
+    list-style-type:none;
+}
+.container .nav-content .leftside-nav .nav-list li i{
+    font-size: 10px;
+}
+.container .nav-content .leftside-nav .nav-list li a{
+    text-decoration: none;
+    color: #18183D;
+    padding: 20px 1px;
+}
+
+/* .container .nav-content .rightside-nav .input-designBtn{
+    width: 500px;
+    border:1px solid black;
+} */
+.container .nav-content .rightside-nav .input-designBtn{
+    border: 2px solid #EAEAEA;
+    border-radius: 30px;
+    position: relative;
+}
+.container .nav-content .rightside-nav .input-designBtn input{
+    height: 38px;
+    width: 200px;
+    padding:0px 30px;
+    border-radius: 30px;
+    border: none;
+}
+.container .nav-content .rightside-nav .input-designBtn input:hover{
+    background-color:white;
+    border: 1px solid #A5A5A5;
+}
+.container .nav-content .rightside-nav .input-designBtn input::placeholder{
+    font-size: 18px;
+}
+.container .nav-content .rightside-nav .input-designBtn i{
+    position: absolute;
+    left: 4px;
+    font-size: 20px;
+}
+.container .nav-content .rightside-nav .input-designBtn li{
+    list-style-type: none;
+    padding: 10px 25px;
+     border-radius: 30px;
+
+}
+.container .nav-content .rightside-nav .input-designBtn li:hover{
+    border: 1px solid #A5A5A5;
+}
+.container .nav-content .rightside-nav .input-designBtn ul li a{
+    text-decoration: none;
+    color: #18183D;
+    font-size: 14px;
+
+}
+.container .nav-content .rightside-nav .rightside-btn a{
+    text-decoration: none;
+    color:#18183D ;
+    margin-left: 27px;
+    font-size: 15px;
+}
+.container .nav-content .rightside-nav .rightside-btn :nth-last-child(1){
+    background-color: green;
+    padding: 11px 25px;
+    color:white;
+    border-radius: 10px;
+}
+
+
+/* Footer Section */
+.footer {
+    background-color: #111111;
+    max-width:80%;
+    color: white;
+    padding: 40px 20px;
+    margin: 0 auto;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-column h3 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #ffffff;
+}
+
+.footer-social {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-social p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #008CFF;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-bottom ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-bottom ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+}
+
+.footer-bottom ul li a:hover {
+    color: #ffffff;
+}
